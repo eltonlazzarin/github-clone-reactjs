@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 import {
   Container,
@@ -10,13 +10,13 @@ import {
   CalendarHeading,
   RepoIcon,
   Tab,
-} from "./styles";
+} from './styles';
 
-import ProfileData from "../../components/ProfileData";
-import RepoCard from "../../components/RepoCard";
-import RandomCalendar from "../../components/RandomCalendar";
+import ProfileData from '../../components/ProfileData';
+import RepoCard from '../../components/RepoCard';
+import RandomCalendar from '../../components/RandomCalendar';
 
-import { APIUser, APIRepo } from "../../@types";
+import { APIUser, APIRepo } from '../../@types';
 
 interface Data {
   user?: APIUser;
@@ -25,7 +25,7 @@ interface Data {
 }
 
 const Profile: React.FC = () => {
-  const { username = "eltonlazzarin" } = useParams();
+  const { username = 'eltonlazzarin' } = useParams();
   const [data, setData] = useState<Data>();
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const Profile: React.FC = () => {
       const [userResponse, reposResponse] = responses;
 
       if (userResponse.status === 404) {
-        setData({ error: "User not found!" });
+        setData({ error: 'User not found!' });
         return;
       }
 
