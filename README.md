@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="GitHub logo" src="https://github.com/eltonlazzarin/twitter-clone-reactjs/blob/master/screenshots/twitter.svg" height="150px" width="150px" />
+	<img alt="GitHub logo" src="https://github.com/eltonlazzarin/github-clone-reactjs/blob/master/screenshots/github-logo.svg" height="150px" width="150px" />
 </h1>
 
 <h3 align="center">
