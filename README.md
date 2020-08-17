@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
 	<img alt="GitHub logo" src="https://github.com/eltonlazzarin/twitter-clone-reactjs/blob/master/screenshots/twitter.svg" height="150px" width="150px" />
 </h1>
@@ -101,3 +102,7 @@ After your pull request is merged, you can delete your branch
 ## 📝 License
 
 This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/github-clone-reactjs/blob/master/LICENSE) for more information.
+=======
+# github-clone-reactjs
+GitHub Clone build in ReactJS and TypeScript
+>>>>>>> ac73326e124ba321ac573db6e132c4f7533195c3
